@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,600&display=swap');
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/img/noise_lines.webp);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+
+.contenedor { 
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* --------------- HEADER -------------- */
+
+header {
+    background: url(/img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+    text-align: right;
+    background-size: cover;
+
+}
+
+header .menu {
+    margin: 40px;
+}
+
+header .menu a {
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    
+}
+
+header .menu a:hover {
+    border-bottom: 2px solid;
+}
+
+header .contenedor-texto {
+    display: flex;
+    margin: 190px;
+    justify-content: center;
+    align-content: center;
+}
+
+header .contenedor-texto .texto {
+    display: inline-block;
+    text-align: center;
+}
+
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
+header .contenedor-texto .texto .nombre {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+header .contenedor-texto .texto .profesion {
+    font-size: 30px;
+    line-height: 25px;
+}
+
+
+/* --------- MAIN ---------- */
+.main .contenedor {
+    overflow: visible;
+}
+
+.main .acerca-de {
+    text-align: center;
+}
+
+.main .acerca-de .foto {
+    margin-top: -60px;
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.main .acerca-de .texto {
+    color: black;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 40px auto;
+}
+
+.main .acerca-de .texto p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main .acerca-de .texto .titulo {
+    font-size: 40px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+
+/* --------- TRABAJOS ------------- */
+
+.main .trabajos {
+    padding: 60px 0;
+}
+
+.main .trabajos .contenedor {
+    overflow: hidden;
+}
+
+.main .trabajos .titulo {
+    font-size: 40px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: black;
+    text-align: center; 
+}
+
+.main .trabajos .contenedor-trabajos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb{
+width: 100%;
+margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb img{ 
+    width: 100%;
+    vertical-align: top; 
+    border-radius: 3px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion {
+    text-align: center;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
+    font-size: 20px;
+    font-weight: 600;
+    color: #100E0E;
+    margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
+    font-size: 14px;
+    color: #161414;
+}
+
+
+/* -------- HERRAMIENTAS ------- */
+.main .herramientas .titulo {
+    font-size: 40px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+.main .herramientas .contenedor {
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+    display: flex;
+}
+
+.main .herramientas .contenedor .contenedor-herramientas {
+   align-items: center;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    width: 240px;
+    overflow: hidden;
+   
+}
+
+.main .herramientas .contenedor .flecha-izquierda,
+.main .herramientas .contenedor .flecha-derecha {
+	border: none;
+	background: rgba(0,0,0,0.4);
+    color:#fff;
+}
+
+.main .herramientas .contenedor .flecha-izquierda:hover,
+.main .herramientas .contenedor .flecha-derecha:hover { 
+    border: none;
+	background: rgba(0,0,0,0.6);
+    color:#fff;
+}
+
+
+.main .herramientas .contenedor .contenedor-herramientas img {
+    width: 120px;
+    align-items: center;
+}
+
+.main .herramientas .contenedor .contenedor-herramientas img:hover {
+ scale: 1.2;
+}
+
+.main .herramientas .contenedor .contenedor-herramientas .descripcion {
+    font-size: 20px;
+    font-weight: 600;
+    color: #100E0E;
+    margin-bottom: 10px; 
+}
+
+.main .indicadores {
+    color:#100E0E;
+}
+
+
+
+/* ----- CONTACTO ------ */
+footer .contacto .contenedor {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer .contacto .contenedor .titulo {
+    font-size: 40px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: black;
+    text-align: center;   
+}
+
+footer .contacto .contenedor p {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+footer .contacto .contenedor .contacto {
+    font-size: 25px;
+    box-shadow: inset 0 0 0 0 #0B0303;
+    text-decoration: none;
+    color: #0B0303;
+    padding: 10px 15px;
+    transition: color .5s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+footer .contacto .contenedor .contacto:hover {
+    box-shadow: inset 200px 0 0 0 #655A5A;
+    color: white;
+    transition: 1s;
+}
+
+footer .contacto .contenedor .correo {
+    margin-top: 30px;
+}
+
+/* ----- FOOTER ------ */
+footer .redes-sociales {
+    background: #100E0E;
+    padding: 60px;  
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales .contenedor a {
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 10px 0;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+footer .redes-sociales .github:hover {
+    background: #f5f5f5;
+    color: #333;
+    scale: 1.2;
+    transition: 1s;
+}
+
+footer .redes-sociales .linkedin:hover {
+    background: #0077b5;
+    color: #fff;
+    scale: 1.2;
+    transition: 1s
+}
