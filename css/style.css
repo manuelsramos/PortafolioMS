@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,600&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -30,7 +33,8 @@ header {
     max-height: 600px;
     text-align: right;
     background-size: cover;
-
+    clip-path: polygon(100% 0%, 100% 85%, 50% 100%, 50% 100%, 0 85%, 0 0);
+    z-index: 0;
 }
 
 header .menu {
@@ -75,6 +79,7 @@ header .contenedor-texto .texto .nombre {
     font-size: 50px;
 }
 
+
 header .contenedor-texto .texto .profesion {
     font-size: 30px;
     line-height: 25px;
@@ -90,15 +95,6 @@ header .contenedor-texto .texto .profesion {
     text-align: center;
 }
 
-.main .acerca-de .foto {
-    margin-top: -60px;
-}
-
-.main .acerca-de .foto img {
-    vertical-align: top;
-    border-radius: 50%;
-    border: 5px solid;
-}
 
 .main .acerca-de .texto {
     color: black;
@@ -320,4 +316,15 @@ footer .redes-sociales .linkedin:hover {
     color: #fff;
     scale: 1.2;
     transition: 1s
+}
+
+
+/* ------ KEYFRAMES ------- */
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    } to {
+        width: 0;
+    }
 }

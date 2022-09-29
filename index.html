@@ -7,17 +7,18 @@
     <title>Manuel Santamaria | Developer</title>
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
-    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
 </head>
 <body>
     <header>
         <div class="contenedor">
             <nav class="menu">
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Contacto</a>
+                <a href="#acerca-de">Acerca de</a>
+                <a href="#trabajos">Trabajos</a>
+                <a href="#herramientas">Herramientas</a>
+                <a href="#contacto">Contacto</a>
             </nav>
             <div class="contenedor-texto">
                 <div class="texto">
@@ -28,18 +29,11 @@
         </div>
     </header>
     <section class="main">
-        <section class="acerca-de">
-            <div class="contenedor">
-            <div class="foto">
-                <img src="/img/fotoperfil.JPG" width="115" alt="Manuel Santamaria">
-            </div>
-            <div class="texto">
-                <h3 class="titulo">Acerca de</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, explicabo? Nihil vero a reiciendis ratione iste sit rem quaerat excepturi modi quia nostrum animi, maiores voluptates explicabo illum, saepe numquam.</p>
-            </div>
-        </div>
+        <section  id="acerca-de" class="acerca-de">
+            <div class="contenedor" ></div>
+            
         </section>
-        <section class="trabajos">
+        <section id="trabajos" class="trabajos">
             <div class="contenedor">
                 <h3 class="titulo">Trabajos</h3>
             <div class="contenedor-trabajos">
@@ -74,7 +68,7 @@
                 
                 
 
-     <section class="herramientas">
+     <section id="herramientas" class="herramientas">
          <h3 class="titulo">Herramientas</h3>
          <div class="contenedor">
              <button role="boton" id="flecha-izquierda" class="flecha-izquierda"><i class="fa-solid fa-chevron-left"></i></button>
@@ -137,7 +131,7 @@
         
     </section>
     <footer>
-        <section class="contacto">
+        <section id="contacto" class="contacto">
         <div class="contenedor">
                 <h3 class="titulo">Contacto</h3>
                 <p class="comentario">¿Algun tema para hablar?</p>
