@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 * {
@@ -15,6 +16,7 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     font-size: 16px;
+    margin: 0;
 }
 
 .contenedor { 
